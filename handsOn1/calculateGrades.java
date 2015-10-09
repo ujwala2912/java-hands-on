@@ -29,7 +29,7 @@ public class calculateGrades {
 		sub.setSocialMarks(in.nextInt());
 
 		System.out.println(sub.getName() + "'s percentage is " + sub.calculatePercentage() + "% and the Category is "
-				+ sub.getGrade());
+				+ sub.getGrade() +".");
 
 	}
 
