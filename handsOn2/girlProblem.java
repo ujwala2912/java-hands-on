@@ -57,7 +57,7 @@ public class girlProblem {
 		
 		else
 		{
-			System.out.println("Game is invalid");
+			System.out.println("Game is invalid, Please try again");
 		}
 
 	}
