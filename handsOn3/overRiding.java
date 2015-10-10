@@ -1,13 +1,15 @@
 package handsOn3;
 
-public class overLoading {
+public class overRiding extends overLoading {
 
+	// override
 	public int calculate(int a, int b) {
-		return a * b;
+		return a + b;
 	}
 
+	// override
 	public float calculate(float a, float b) {
-		return a * b;
+		return a + b;
 	}
 
 }
