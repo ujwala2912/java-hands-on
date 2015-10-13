@@ -1,5 +1,7 @@
 package handsOn1;
 
+import java.util.Scanner;
+
 public class subjects {
 
 	private String name;
@@ -66,10 +68,11 @@ public class subjects {
 
 	public double calculatePercentage() {
 		double totalMarks;
+		double percentage;
 
 		totalMarks = getMathematicsMarks() + getEnglishMarks() + getHindiMarks() + getScienceMarks() + getSocialMarks();
 
-		return (totalMarks) / 5;
+		return percentage = (totalMarks) / 5;
 
 	}
 
@@ -91,6 +94,18 @@ public class subjects {
 
 		return grade;
 
+	}
+
+	public boolean checkMarks(int marks) {
+
+		if (marks < 0 || marks > 100) {
+			System.out.println("Please enter marks between 0 and 100");
+			return false;
+		}
+
+		else {
+			return true;
+		}
 	}
 
 }
